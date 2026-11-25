@@ -1,0 +1,1747 @@
+Design a complete, modern, highly intuitive \*\*Cooperative Savings & Loan Management Dashboard\*\* for a Nigerian cooperative organization.
+
+This should be a \*\*high-fidelity, presentation-ready Figma prototype\*\* with both an \*\*Admin Dashboard\*\* and a \*\*Member Dashboard\*\*.
+
+The system manages:
+
+\* Member registration
+\* Savings
+\* Loans
+\* Loan applications
+\* Guarantors
+\* Loan repayments
+\* Payment verification
+\* Receipts
+\* Member records
+\* Notifications
+\* Transaction history
+\* Administrative approvals
+
+The primary users may include adults between approximately \*\*40 and 70 years old\*\*, so the product must be extremely simple, readable, trustworthy and easy to understand. However, it should still look polished and modern enough to impress during a professional product presentation.
+
+The central design principle is:
+
+\*\*“Make every member understand exactly where their money is and make every administrator understand exactly what is happening.”\*\*
+
+---
+
+# 1. DESIGN PRINCIPLES
+
+Prioritize:
+
+\* Simplicity
+\* Transparency
+\* Trust
+\* Ease of use
+\* Large readable typography
+\* Clear financial information
+\* Minimal steps
+\* Obvious actions
+\* Strong visual hierarchy
+\* Large clickable areas
+\* Simple language
+\* Clear status indicators
+\* Consistent navigation
+\* Responsive layouts
+
+Avoid:
+
+\* Overly complicated fintech interfaces
+\* Tiny text
+\* Crowded dashboards
+\* Excessive animations
+\* Excessive gradients
+\* Excessive colors
+\* Complicated charts
+\* Hidden actions
+\* Technical financial terminology
+\* Unnecessary navigation items
+
+The design should feel like a \*\*simple, trustworthy cooperative financial system\*\*, not a complicated banking application.
+
+---
+
+# 2. VISUAL STYLE
+
+Create a clean, modern and friendly financial interface.
+
+Use:
+
+\* White and soft neutral backgrounds
+\* Green as the primary action color
+\* Dark readable text
+\* Subtle borders
+\* Soft neutral cards
+\* Rounded corners
+\* Generous spacing
+\* Large financial figures
+\* Simple outline icons
+\* Clear status badges
+\* Clean tables
+\* Simple charts
+\* Professional empty states
+
+Use green primarily for:
+
+\* Approved
+\* Successful transactions
+\* Positive balance changes
+\* Primary actions
+
+Use amber/orange for:
+
+\* Pending
+\* Waiting
+\* Attention required
+
+Use red carefully for:
+
+\* Rejected
+\* Declined
+\* Errors
+\* Negative actions
+
+Do not rely on color alone. Always combine color with text and/or icons.
+
+Example:
+
+✓ Approved
+⏳ Pending
+✕ Rejected
+
+---
+
+# 3. DESIGN SYSTEM
+
+Create a reusable design system containing:
+
+\* Primary buttons
+\* Secondary buttons
+\* Destructive buttons
+\* Cards
+\* Summary cards
+\* Tables
+\* Table rows
+\* Search fields
+\* Dropdowns
+\* Filters
+\* Date pickers
+\* Tabs
+\* Status badges
+\* Notifications
+\* Side drawers
+\* Modals
+\* Confirmation dialogs
+\* Form fields
+\* Upload components
+\* Receipt preview
+\* Empty states
+\* Loading states
+\* Success states
+\* Error states
+\* Pagination
+\* Tooltips
+\* Charts
+\* Progress indicators
+
+Make the components reusable throughout the entire system.
+
+---
+
+# 4. ADMIN NAVIGATION
+
+Create a simple left sidebar for the Admin Dashboard:
+
+\* Dashboard
+\* Members
+\* Savings
+\* Loans
+\* Payments
+\* Loan Applications
+\* Notifications
+\* Transactions
+\* Settings
+
+Highlight the current section clearly.
+
+The sidebar should remain simple and uncluttered.
+
+---
+
+# 5. ADMIN DASHBOARD OVERVIEW
+
+Create a strong admin dashboard overview.
+
+At the top, display large summary cards:
+
+### Total Cooperative Balance
+
+₦24,850,000
+
+### Total Savings
+
+₦18,400,000
+
+### Loans Outstanding
+
+₦6,450,000
+
+### Money Received
+
+₦4,250,000
+
+### Money Disbursed
+
+₦2,850,000
+
+### Pending Requests
+
+8
+
+Make these cards visually prominent.
+
+Each card should have:
+
+\* Large number
+\* Clear title
+\* Simple icon
+\* Small supporting description
+\* Optional trend indicator
+
+Do not overcrowd the dashboard.
+
+---
+
+# 6. ADMIN FINANCIAL OVERVIEW
+
+Create a simple financial overview chart.
+
+Allow the administrator to switch between:
+
+\* Today
+\* This Week
+\* This Month
+\* This Year
+\* Custom Date
+
+Show:
+
+\* Money received
+\* Money disbursed
+\* Savings received
+\* Loan repayments
+\* Loans disbursed
+
+Charts must be easy to understand.
+
+Do not create complicated financial analytics.
+
+---
+
+# 7. PAYMENT VERIFICATION
+
+Create a dedicated \*\*Payment Verification\*\* section.
+
+This is one of the most important sections of the admin dashboard.
+
+At the top, create \*\*three large dashboard summary cards\*\*.
+
+These cards should be significantly larger and more prominent than ordinary cards because they communicate the administrator's most important payment information.
+
+### CARD 1 — PENDING REVIEW
+
+Display:
+
+\*\*8\*\*
+
+\*\*Pending Review\*\*
+
+Use a clear waiting icon such as:
+
+\* Clock
+\* Hourglass
+\* Pending arrows
+
+Supporting text:
+
+\*\*Transfers waiting for verification\*\*
+
+The card should immediately communicate that these payments require administrator attention.
+
+---
+
+### CARD 2 — PENDING AMOUNT
+
+Display:
+
+\*\*₦850,000\*\*
+
+\*\*Pending Amount\*\*
+
+Use a clear money/payment-pending icon.
+
+Supporting text:
+
+\*\*Total value awaiting verification\*\*
+
+---
+
+### CARD 3 — APPROVED THIS MONTH
+
+Display:
+
+\*\*24\*\*
+
+\*\*Approved This Month\*\*
+
+Use a clear approval/check icon.
+
+Supporting text:
+
+\*\*Payments successfully verified\*\*
+
+These three cards should be:
+
+\* Large
+\* Spacious
+\* Highly readable
+\* Visually balanced
+\* Easy to scan
+
+Do not make them look like tiny statistics.
+
+---
+
+# 8. PAYMENT VERIFICATION SEARCH AND FILTER
+
+Below the summary cards, create a clean search and filtering area.
+
+At the top, provide:
+
+\*\*Search Member or ID\*\*
+
+The search icon must be clearly visible \*\*inside or directly beside the search field\*\*.
+
+The search should allow the administrator to search by:
+
+\* Member name
+\* Member ID
+
+Add filters for:
+
+\* Payment Type
+\* Status
+\* Date
+\* Amount
+\* Custom Date Range
+
+Payment Type:
+
+\* Savings
+\* Loan Repayment
+\* Savings + Loan
+
+Status:
+
+\* Pending
+\* Approved
+\* Rejected
+
+Include:
+
+\*\*Clear Filters\*\*
+
+Keep the filter area clean and easy to understand.
+
+---
+
+# 9. PAYMENT VERIFICATION TABLE
+
+Create a professional payment verification table containing:
+
+\* Member
+\* Member ID
+\* Payment Type
+\* Amount
+\* Allocation
+\* Date
+\* Status
+\* Action
+
+Example:
+
+John Ade | MB-00125 | Savings + Loan | ₦100,000 | ₦50,000 + ₦50,000 | Oct 5 | Pending | Review
+
+Use clear status badges.
+
+For pending payments, display:
+
+\*\*Review\*\*
+
+as the primary action.
+
+---
+
+# 10. PAYMENT REVIEW SIDE DRAWER
+
+When an administrator clicks \*\*Review\*\*, open a large side drawer.
+
+Show:
+
+\* Member name
+\* Member ID
+\* Payment amount
+\* Payment type
+\* Date submitted
+\* Payment description
+\* Uploaded receipt
+\* Allocation
+\* Current savings balance
+\* Current loan balance
+
+Example:
+
+\*\*Total Payment\*\*
+₦100,000
+
+\*\*Savings\*\*
+₦50,000
+
+\*\*Loan Repayment\*\*
+₦50,000
+
+Display the receipt clearly with a preview option.
+
+Actions:
+
+\*\*Approve Payment\*\*
+
+\*\*Reject Payment\*\*
+
+\*\*Add Note\*\*
+
+If rejected, allow the administrator to provide a reason.
+
+---
+
+# 11. SINGLE PAYMENT ALLOCATION
+
+This is one of the key features of the entire system.
+
+Allow a member to make \*\*one bank transfer\*\* and allocate the payment between savings and loan repayment.
+
+Example:
+
+\*\*Total Payment: ₦100,000\*\*
+
+Savings: ₦50,000
+Loan Repayment: ₦50,000
+
+The administrator confirms one transfer.
+
+After approval:
+
+Savings balance:
+₦300,000 → ₦350,000
+
+Loan balance:
+₦200,000 → ₦150,000
+
+The system should automatically update both balances.
+
+This feature should be visually emphasized during the prototype demonstration.
+
+Clearly communicate:
+
+\*\*“One transfer. Multiple allocations. No need to pay twice.”\*\*
+
+---
+
+# 12. MEMBER DASHBOARD
+
+Create a very simple Member Dashboard.
+
+At the top, prominently display two major cards.
+
+### MY SAVINGS
+
+\*\*₦300,000\*\*
+
+Current Savings Balance
+
+### MY LOAN
+
+\*\*₦200,000\*\*
+
+Outstanding Loan
+
+These should be the two most prominent financial cards on the member dashboard.
+
+Below them show:
+
+\* Next repayment
+\* Recent activity
+\* Pending requests
+\* Important notifications
+
+Add two obvious primary actions:
+
+\*\*Apply for Loan\*\*
+
+\*\*Make Payment\*\*
+
+---
+
+# 13. MEMBER SAVINGS
+
+Create a dedicated \*\*My Savings\*\* page.
+
+Display:
+
+\* Current savings balance
+\* Total contributed
+\* Number of contributions
+\* Recent deposits
+
+Create a transaction history showing:
+
+\* Date
+\* Description
+\* Amount
+\* Status
+\* Resulting balance
+
+Allow filtering by:
+
+\* Day
+\* Month
+\* Year
+\* Custom Date
+
+Example:
+
+Oct 5 — Savings Contribution — ₦50,000 — Approved
+
+Sep 5 — Savings Contribution — ₦50,000 — Approved
+
+Aug 5 — Savings Contribution — ₦50,000 — Approved
+
+---
+
+# 14. MEMBER LOAN
+
+Create a dedicated \*\*My Loan\*\* page.
+
+Display:
+
+\* Original loan amount
+\* Outstanding balance
+\* Total amount repaid
+\* Next repayment
+\* Repayment duration
+\* Interest
+\* Loan status
+
+Create a visual repayment progress indicator.
+
+Example:
+
+Loan Amount: ₦200,000
+Repaid: ₦80,000
+Remaining: ₦120,000
+Progress: 40%
+
+---
+
+# 15. LOAN REPAYMENT HISTORY
+
+Create a comprehensive repayment history.
+
+Show:
+
+\* Date
+\* Amount paid
+\* Principal
+\* Interest
+\* Remaining balance
+\* Status
+
+If the cooperative uses reducing-balance interest, visually explain the reduction in simple language.
+
+The member should be able to understand:
+
+\*\*How much I borrowed → how much I have paid → how much remains.\*\*
+
+---
+
+# 16. LOAN ELIGIBILITY
+
+A member must have been with the cooperative for at least \*\*6 months\*\* before they can request a loan.
+
+The system should automatically check membership duration.
+
+If the member has less than six months:
+
+Display:
+
+\*\*You are not yet eligible for a loan.\*\*
+
+Then:
+
+\*\*Loan eligibility begins after 6 months of membership.\*\*
+
+Disable the loan application action.
+
+If eligible:
+
+\*\*You are eligible to apply for a loan.\*\*
+
+Enable:
+
+\*\*Apply for Loan\*\*
+
+---
+
+# 17. APPLY FOR LOAN
+
+Create a simple loan application form.
+
+Fields:
+
+\* Loan Amount
+\* Purpose of Loan
+\* Preferred Repayment Period
+\* Guarantor 1
+\* Guarantor 2
+
+For guarantor selection, create a prominent search field:
+
+\*\*Search Cooperative Member\*\*
+
+Search results should show:
+
+\* Member name
+\* Member ID
+\* Optional profile image
+\* Membership status
+
+The applicant must select exactly \*\*two guarantors\*\*.
+
+Display:
+
+\*\*Guarantor 1\*\*
+
+\*\*Guarantor 2\*\*
+
+Allow selected guarantors to be removed and replaced.
+
+---
+
+# 18. GUARANTOR APPROVAL
+
+When a member submits a loan application, both selected guarantors receive a notification.
+
+Example:
+
+\*\*John has selected you as a guarantor for a ₦200,000 loan.\*\*
+
+Show:
+
+\* Applicant name
+\* Loan amount
+\* Loan purpose
+\* Repayment period
+\* Application date
+
+Actions:
+
+\*\*Approve\*\*
+
+\*\*Decline\*\*
+
+If declined, allow the guarantor to provide an optional reason.
+
+The loan application should only move to the administrator after \*\*both guarantors approve\*\*.
+
+---
+
+# 19. LOAN APPLICATION ADMIN FLOW
+
+Create clear application statuses:
+
+\* Awaiting Guarantors
+\* Guarantor 1 Approved
+\* Guarantor 2 Approved
+\* Guarantor Declined
+\* Pending Admin Approval
+\* Approved
+\* Rejected
+\* Disbursed
+\* Repaid
+
+The administrator should immediately understand where every application is in the process.
+
+---
+
+# 20. MEMBERS MANAGEMENT
+
+Create a dedicated \*\*Members\*\* section.
+
+The administrator must have access to \*\*all cooperative members\*\*.
+
+Display a table containing:
+
+\* Full Name
+\* Member ID
+\* Membership Date
+\* Savings Balance
+\* Loan Balance
+\* Status
+\* Action
+
+The administrator should be able to search members using:
+
+\*\*Search Member or ID\*\*
+
+Place the search icon directly beside/inside the search field.
+
+---
+
+# 21. MEMBER STATUS DROPDOWN
+
+Each member should have a status dropdown.
+
+Possible statuses include:
+
+\* Active
+\* Inactive
+\* Absconded
+\* Deceased
+\* Suspended
+\* Disengaged
+
+The status should be immediately visible in the members table.
+
+Use clear badges and icons.
+
+The administrator should be able to filter the member list by status.
+
+---
+
+# 22. MEMBER PROFILE
+
+When the administrator clicks a member's name, open a detailed member profile page or large side drawer.
+
+The administrator should be able to see the member's complete information.
+
+Organize the information into clear sections rather than presenting one huge form.
+
+### PERSONAL INFORMATION
+
+\* Full Name
+\* Date of Birth
+\* Country of Birth
+\* Country of Citizenship
+\* State of Origin
+\* Nationality
+\* Gender
+\* Marital Status
+
+### IDENTIFICATION
+
+Show:
+
+\* Identification Type
+\* National ID/NIN
+\* International Passport
+\* Driver's Licence
+\* Other Identification
+
+Display:
+
+\* ID Number
+\* Issue Date
+\* Expiry Date
+
+### CONTACT INFORMATION
+
+\* Phone Number
+\* Email Address
+\* Residential Address
+
+### EMPLOYMENT INFORMATION
+
+\* Employee Status
+\* Employee ID
+\* Department
+\* Unit
+\* Other relevant employment details
+
+### INSURANCE INFORMATION
+
+Show:
+
+\* Insurance Provider/Authority
+\* Insurance Number/details
+\* Relevant insurance information
+
+### GUARANTORS
+
+Show:
+
+\* Guarantor 1
+\* Guarantor 2
+
+### SPONSOR
+
+Show:
+
+\* Sponsor name
+\* Sponsor details
+
+### NEXT OF KIN
+
+Show:
+
+\* Full Name
+\* Relationship
+\* Phone Number
+\* Address
+
+---
+
+# 23. MEMBER INFORMATION MUST BE VIEW-ONLY
+
+The administrator should be able to \*\*view\*\* the member's registered personal information but should not casually edit sensitive records from the member profile.
+
+Details such as:
+
+\* Address
+\* Phone number
+\* Sponsor
+\* NIN
+\* Identification information
+\* Date of birth
+\* Nationality
+\* Next of kin
+
+should be displayed as \*\*read-only\*\*.
+
+Use clear labels such as:
+
+\*\*Verified Member Information\*\*
+
+or
+
+\*\*Read Only\*\*
+
+Do not display unnecessary edit buttons.
+
+---
+
+# 24. MEMBER FINANCIAL OVERVIEW
+
+Inside a member's profile, create a financial summary showing:
+
+### Savings
+
+Current Balance
+₦500,000
+
+### Loan
+
+Outstanding Balance
+₦200,000
+
+### Membership
+
+Active
+
+Then provide quick access to:
+
+\*\*View Savings History\*\*
+
+\*\*View Loan History\*\*
+
+\*\*View Payment History\*\*
+
+\*\*View Transactions\*\*
+
+---
+
+# 25. SAVINGS MANAGEMENT — ADMIN
+
+Create a dedicated \*\*Savings\*\* section for administrators.
+
+Show all members who have savings with the cooperative.
+
+Table:
+
+\* Member Name
+\* Member ID
+\* Current Savings
+\* Total Contributions
+\* Last Payment
+\* Status
+\* Action
+
+Example:
+
+Sunday Ojo — MB-001 — ₦500,000
+
+Emmanuel Ojo — MB-002 — ₦200,000
+
+The administrator should be able to search by:
+
+\* Name
+\* Member ID
+
+Add filters for:
+
+\* Active savers
+\* No recent contribution
+\* Date
+\* Balance range
+
+---
+
+# 26. ADMIN SAVINGS MEMBER DETAILS
+
+When the administrator clicks a member's name under Savings, show their complete savings history.
+
+Display:
+
+\*\*Current Savings\*\*
+
+₦500,000
+
+Then show a comprehensive transaction history:
+
+\* Date
+\* Amount
+\* Payment method
+\* Reference
+\* Status
+\* Running balance
+
+Example:
+
+Oct 5 — ₦50,000 — Approved — Balance ₦500,000
+
+Sep 5 — ₦50,000 — Approved — Balance ₦450,000
+
+Aug 5 — ₦100,000 — Approved — Balance ₦400,000
+
+The administrator should be able to understand exactly how the member reached their current balance.
+
+---
+
+# 27. LOANS MANAGEMENT — ADMIN
+
+Create a dedicated \*\*Loans\*\* section.
+
+Show members who currently have active loans.
+
+A member can simultaneously:
+
+\* Have savings
+\* Have an outstanding loan
+
+Therefore, do not treat Savings and Loans as mutually exclusive categories.
+
+The same member can appear in both sections.
+
+---
+
+# 28. ADMIN LOAN TABLE
+
+Display:
+
+\* Member Name
+\* Member ID
+\* Original Loan
+\* Amount Repaid
+\* Outstanding Balance
+\* Repayment Period
+\* Payments Made
+\* Payments Remaining
+\* Loan Status
+\* Action
+
+Example:
+
+John Ade
+Loan: ₦500,000
+Repaid: ₦300,000
+Remaining: ₦200,000
+Period: 10 Months
+Paid: 6 Months
+Remaining: 4 Months
+
+---
+
+# 29. ADMIN LOAN DETAILS
+
+When the administrator clicks a member under Loans, display a comprehensive loan profile.
+
+Show:
+
+### Loan Summary
+
+Original Loan: ₦500,000
+
+Total Repaid: ₦300,000
+
+Outstanding: ₦200,000
+
+Repayment Period: 10 Months
+
+Payments Made: 6
+
+Payments Remaining: 4
+
+Loan Status: Active
+
+Then show the complete repayment schedule.
+
+Example:
+
+| Month | Amount Paid | Principal | Interest |  Balance |
+| ----- | ----------: | --------: | -------: | -------: |
+| 1     |     ₦55,000 |   ₦50,000 |   ₦5,000 | ₦450,000 |
+| 2     |     ₦54,500 |   ₦50,000 |   ₦4,500 | ₦400,000 |
+| 3     |     ₦54,000 |   ₦50,000 |   ₦4,000 | ₦350,000 |
+
+Make the information easy to understand.
+
+---
+
+# 30. ADMIN NOTIFICATIONS
+
+Create a dedicated \*\*Notifications\*\* section.
+
+The notification center should be where the administrator sees important system alerts.
+
+Especially display notifications when members submit payment receipts.
+
+Example:
+
+\*\*Payment Received\*\*
+
+John Ade has submitted a ₦100,000 payment.
+
+Savings: ₦50,000
+Loan Repayment: ₦50,000
+
+\*\*Review Payment\*\*
+
+Another notification:
+
+\*\*Payment Received\*\*
+
+Emmanuel Ojo has submitted a ₦50,000 savings payment.
+
+\*\*Review Payment\*\*
+
+Notifications should show:
+
+\* Member
+\* Amount
+\* Payment type
+\* Date/time
+\* Status
+\* Action
+
+The administrator should be able to click the notification and go directly to the payment review.
+
+Do not unnecessarily duplicate the payment table inside the notification page.
+
+The notification center is for \*\*alerts and quick actions\*\*, while Payment Verification remains the main payment management area.
+
+---
+
+# 31. MEMBER PAYMENT SUBMISSION
+
+Create a \*\*Make Payment\*\* action on the member dashboard.
+
+When clicked, open a clean side drawer.
+
+Ask:
+
+\*\*What are you paying for?\*\*
+
+Options:
+
+\* Savings
+\* Loan Repayment
+\* Savings + Loan Repayment
+
+Then enter:
+
+\*\*Total Amount\*\*
+
+If the member selects Savings + Loan Repayment, display:
+
+Total Payment:
+₦100,000
+
+Savings:
+₦50,000
+
+Loan Repayment:
+₦50,000
+
+Automatically validate:
+
+\*\*Savings + Loan Repayment = Total Payment\*\*
+
+If the numbers do not match, display a clear error.
+
+---
+
+# 32. PAYMENT RECEIPT UPLOAD
+
+Inside the payment drawer, provide:
+
+\*\*Upload Payment Receipt\*\*
+
+Support:
+
+\* JPG
+\* PNG
+\* PDF
+
+Also provide:
+
+\*\*Payment Note\*\*
+
+Then:
+
+\*\*Submit Payment\*\*
+
+After submission:
+
+\*\*Payment submitted successfully.\*\*
+
+Status:
+
+\*\*Pending Confirmation\*\*
+
+The member should be able to track the request from their dashboard.
+
+---
+
+# 33. MEMBER PAYMENT STATUS
+
+Create a payment tracking section showing:
+
+\* Amount
+\* Payment Purpose
+\* Allocation
+\* Receipt
+\* Date Submitted
+\* Status
+\* Admin Note
+
+Statuses:
+
+\* Pending
+\* Approved
+\* Rejected
+
+When approved, the member's savings and/or loan balance updates automatically.
+
+---
+
+# 34. MEMBER TRANSACTION HISTORY
+
+Create a central \*\*Transactions\*\* page.
+
+Allow filtering by:
+
+\* Savings
+\* Loan
+\* Payments
+\* Loan Disbursement
+\* Savings Contributions
+\* Date
+\* Status
+
+Allow date filtering by:
+
+\* Day
+\* Month
+\* Year
+\* Custom Date
+
+Each transaction should show:
+
+\* Date
+\* Description
+\* Amount
+\* Type
+\* Status
+\* Resulting Balance
+
+The interface must make it obvious whether money was:
+
+\*\*Added\*\*
+
+or
+
+\*\*Deducted\*\*
+
+---
+
+# 35. ADMIN TRANSACTION HISTORY
+
+Create an administrative transaction view showing all financial activities across the cooperative.
+
+Allow administrators to search and filter by:
+
+\* Member
+\* Member ID
+\* Transaction Type
+\* Date
+\* Amount
+\* Status
+
+Include:
+
+\* Savings contributions
+\* Loan repayments
+\* Loan disbursements
+\* Payment submissions
+\* Approved payments
+\* Rejected payments
+
+---
+
+# 36. NEW MEMBER REGISTRATION
+
+Create a prominent action for the administrator:
+
+\*\*Add New Member\*\*
+
+This should open a large side drawer or multi-step registration form.
+
+The administrator is responsible for registering new cooperative members and creating their dashboard/account.
+
+Organize the form into logical sections.
+
+### PERSONAL DETAILS
+
+\* Full Name
+\* Date of Birth
+\* Country of Birth
+\* Country of Citizenship
+\* State of Origin
+\* Nationality
+\* Gender
+\* Marital Status
+
+### CONTACT DETAILS
+
+\* Phone Number
+\* Email
+\* Residential Address
+
+### EMPLOYMENT DETAILS
+
+\* Employee ID
+\* Employee Status
+\* Department
+\* Unit
+\* Position/Role
+
+### IDENTIFICATION
+
+\* Identification Type
+\* NIN
+\* International Passport
+\* Driver's Licence
+\* Other ID
+\* ID Number
+\* Issue Date
+\* Expiry Date
+
+### INSURANCE
+
+\* Insurance Provider/Authority
+\* Insurance Number/details
+
+### GUARANTOR DETAILS
+
+\* Guarantor 1
+\* Guarantor 2
+
+### SPONSOR
+
+\* Sponsor Name
+\* Sponsor Information
+
+### NEXT OF KIN
+
+\* Full Name
+\* Relationship
+\* Phone Number
+\* Address
+
+### MEMBERSHIP DETAILS
+
+\* Membership Start Date
+\* Member ID
+\* Membership Status
+
+Default status:
+
+\*\*Active\*\*
+
+Allow the administrator to select another status if necessary.
+
+---
+
+# 37. CREATE MEMBER ACCOUNT
+
+At the end of the new member registration form, provide:
+
+\*\*Create Member\*\*
+
+After submission, show a success confirmation:
+
+\*\*Member successfully registered\*\*
+
+Then display:
+
+\* Member Name
+\* Member ID
+\* Account status
+
+The administrator should be able to create the member's login/account from this process.
+
+Do not make the registration process unnecessarily complicated.
+
+Use clear steps and section headings.
+
+---
+
+# 38. MEMBER PROFILE ACCESS
+
+Once a new member is created, the administrator should immediately be able to find them under:
+
+\*\*Members\*\*
+
+and view their complete profile.
+
+The member should also have access to their own:
+
+\* Dashboard
+\* Savings
+\* Loan
+\* Payments
+\* Transactions
+\* Notifications
+\* Profile
+
+---
+
+# 39. MEMBER DASHBOARD NAVIGATION
+
+For members, use:
+
+\* Dashboard
+\* My Savings
+\* My Loan
+\* Make Payment
+\* Apply for Loan
+\* Transactions
+\* Notifications
+\* Profile
+
+Keep the navigation simple.
+
+---
+
+# 40. MEMBER PROFILE
+
+Create a simple member profile.
+
+Display:
+
+\* Full Name
+\* Member ID
+\* Phone Number
+\* Email
+\* Membership Date
+\* Membership Duration
+\* Account Status
+
+Keep financial information separate from personal information.
+
+---
+
+# 41. NOTIFICATION SYSTEM
+
+Create a reusable notification system.
+
+Member notifications:
+
+\* Loan application submitted
+\* Guarantor request
+\* Guarantor approved
+\* Guarantor declined
+\* Loan approved
+\* Loan rejected
+\* Payment submitted
+\* Payment approved
+\* Payment rejected
+\* Savings updated
+\* Loan balance updated
+
+Admin notifications:
+
+\* New payment received
+\* Payment awaiting verification
+\* New loan application
+\* Guarantor approvals completed
+\* Member registration completed
+\* Payment rejected
+\* Loan repayment received
+
+Use simple language.
+
+Example:
+
+\*\*Payment Approved\*\*
+
+Your ₦50,000 savings payment has been confirmed.
+
+---
+
+# 42. RESPONSIVE DESIGN
+
+Create:
+
+\* Desktop
+\* Tablet
+\* Mobile
+
+On mobile, convert the sidebar into:
+
+\* Bottom navigation
+  or
+\* Simple menu drawer
+
+Ensure all buttons are large enough to tap comfortably.
+
+Tables should become responsive cards or horizontally scrollable tables where necessary.
+
+---
+
+# 43. ACCESSIBILITY
+
+Because some users may be older adults, accessibility is extremely important.
+
+Use:
+
+\* Large readable text
+\* Strong contrast
+\* Large buttons
+\* Large form fields
+\* Clear labels
+\* Familiar icons
+\* Icons plus text
+\* Large tap targets
+\* Simple sentences
+\* Clear error messages
+\* Clear confirmation messages
+
+Avoid:
+
+\* Tiny text
+\* Tiny icons
+\* Icon-only important actions
+\* Low contrast
+\* Hidden controls
+\* Complicated terminology
+
+---
+
+# 44. TRUST AND TRANSPARENCY
+
+Every financial transaction should clearly show:
+
+\* Date
+\* Amount
+\* Purpose
+\* Status
+\* Receipt/reference
+\* Resulting balance
+
+The user should always be able to answer:
+
+\*\*How much money do I have?\*\*
+
+\*\*How much have I contributed?\*\*
+
+\*\*How much do I owe?\*\*
+
+\*\*How much have I repaid?\*\*
+
+\*\*Where did my money go?\*\*
+
+\*\*Has my payment been confirmed?\*\*
+
+This transparency should be a major part of the visual design.
+
+---
+
+# 45. DEMO DATA
+
+Use realistic Nigerian cooperative data.
+
+Use realistic Nigerian names such as:
+
+\* Sunday Ojo
+\* Emmanuel Ojo
+\* John Ade
+\* Grace Okafor
+\* Mary Eze
+
+Use realistic Naira values.
+
+Create realistic statuses:
+
+\* Active
+\* Pending
+\* Approved
+\* Rejected
+\* Awaiting Guarantor
+\* Awaiting Admin Approval
+\* Disbursed
+\* Repaid
+\* Absconded
+\* Suspended
+\* Deceased
+
+---
+
+# 46. COMPLETE DEMO FLOW
+
+Make the prototype clickable and demonstrate this complete journey:
+
+### MEMBER FLOW
+
+Member logs in →
+
+Views savings balance →
+
+Views loan balance →
+
+Clicks Apply for Loan →
+
+System checks six-month eligibility →
+
+Member enters loan amount →
+
+Selects purpose →
+
+Selects two guarantors →
+
+Guarantor 1 receives notification →
+
+Guarantor 2 receives notification →
+
+Both approve →
+
+Application moves to Admin →
+
+Admin reviews application →
+
+Admin approves loan →
+
+Loan is disbursed →
+
+Member sees loan balance →
+
+Member makes one payment →
+
+Selects Savings + Loan Repayment →
+
+Enters ₦100,000 →
+
+Allocates ₦50,000 to savings →
+
+Allocates ₦50,000 to loan →
+
+Uploads receipt →
+
+Submits payment →
+
+Member sees Pending status →
+
+Admin receives notification →
+
+Admin opens Payment Verification →
+
+Admin sees Pending Review card increase →
+
+Admin searches member →
+
+Admin reviews receipt →
+
+Admin confirms payment →
+
+Admin approves →
+
+System automatically adds ₦50,000 to savings →
+
+System automatically reduces loan by ₦50,000 →
+
+Member receives notification →
+
+Member sees updated savings balance →
+
+Member sees reduced loan balance →
+
+Member sees complete transaction history.
+
+---
+
+# 47. ADMIN DEMO FLOW
+
+Also create a smooth administrator journey:
+
+Admin logs in →
+
+Sees dashboard overview →
+
+Sees large Payment Verification cards →
+
+Sees “8 Pending Review” →
+
+Sees “₦850,000 Pending Amount” →
+
+Sees “24 Approved This Month” →
+
+Opens Payment Verification →
+
+Searches Member or ID →
+
+Filters payment →
+
+Opens Review →
+
+Views receipt →
+
+Views allocation →
+
+Confirms payment →
+
+Clicks Approve →
+
+System updates member balances →
+
+Admin returns to dashboard →
+
+Pending count decreases →
+
+Approved count increases →
+
+Member's financial record updates.
+
+---
+
+# 48. EMPTY, SUCCESS AND ERROR STATES
+
+Create polished states for:
+
+\* No members
+\* No savings
+\* No loans
+\* No pending payments
+\* No notifications
+\* No search results
+\* Payment submitted
+\* Payment approved
+\* Payment rejected
+\* Loan approved
+\* Loan rejected
+\* Member successfully created
+\* Guarantor approved
+\* Guarantor declined
+\* Invalid payment allocation
+\* Receipt upload error
+\* Failed submission
+
+Always explain what happened and what the user should do next.
+
+---
+
+# 49. PRESENTATION QUALITY
+
+This prototype will be used for a professional presentation/demo.
+
+Therefore, make the interface visually impressive without sacrificing simplicity.
+
+Prioritize:
+
+\*\*Clarity over decoration\*\*
+
+\*\*Transparency over complexity\*\*
+
+\*\*Usability over visual effects\*\*
+
+\*\*Consistency over unnecessary creativity\*\*
+
+The final product should look like a real production-ready cooperative management platform rather than a generic dashboard template.
+
+---
+
+# 50. MOST IMPORTANT PRODUCT FEATURES TO EMPHASIZE
+
+Give strong visual emphasis to these five ideas:
+
+### 1. SAVINGS TRANSPARENCY
+
+Members can always see exactly how much they have saved and every contribution they've made.
+
+### 2. LOAN TRANSPARENCY
+
+Members can see exactly how much they borrowed, how much they've repaid and how much remains.
+
+### 3. GUARANTOR WORKFLOW
+
+Loan applications require two cooperative members to approve their guarantor requests before the application reaches the administrator.
+
+### 4. PAYMENT VERIFICATION
+
+Members upload receipts and administrators verify the actual transfer before balances are updated.
+
+### 5. ONE TRANSFER, MULTIPLE ALLOCATIONS
+
+A member can make one ₦100,000 transfer and allocate it between savings and loan repayment without paying bank charges twice.
+
+This fifth feature should be one of the strongest visual moments in the prototype.
+
+---
+
+# FINAL DESIGN DIRECTION
+
+Create a \*\*simple, trustworthy, transparent and modern Cooperative Savings & Loan Management Platform\*\*.
+
+The design should feel:
+
+\*\*Professional enough for management.\*\*
+
+\*\*Simple enough for a 70-year-old member.\*\*
+
+\*\*Powerful enough for an administrator.\*\*
+
+\*\*Transparent enough that members can trust every financial transaction.\*\*
+
+Build the complete high-fidelity Figma prototype with reusable components, realistic Nigerian cooperative data, responsive layouts, clickable interactions, side drawers, filters, notifications, approval workflows, payment verification, member management, savings tracking, loan tracking and complete transaction histories.
+
+Do not create a generic fintech dashboard.
+
+Create a \*\*purpose-built cooperative management system where every important financial action is visible, understandable and traceable.\*\*

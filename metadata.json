@@ -1,0 +1,8 @@
+{
+  "name": "Unity Cooperative — Savings & Loan Management",
+  "description": "A simple, transparent Cooperative Savings & Loan Management platform with Admin and Member dashboards, Phone OTP authentication, single-transfer payment allocation, guarantor workflows, and payment verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
